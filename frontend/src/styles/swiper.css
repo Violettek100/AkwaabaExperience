@@ -1,0 +1,13 @@
+.swiper-slide {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-pagination-bullet {
+    @apply bg-white/50 w-3 h-3;
+  }
+  
+  .swiper-pagination-bullet-active {
+    @apply bg-emerald-500;
+  }
