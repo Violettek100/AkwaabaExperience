@@ -30,9 +30,9 @@ INSTALLED_APPS = [
     'users.apps.UsersConfig',
     'payments.apps.PaymentsConfig',
     'reviews.apps.ReviewsConfig',
-    'rest_framework',
-    'corsheaders',
-    
+    # 'rest_framework',
+    # 'corsheaders',
+
 ]
 
 MIDDLEWARE = [
